@@ -1,0 +1,35 @@
+{
+  "name": "video-streamer",
+  "version": "0.0.1",
+  "description": "Simple streaming of video",
+  "main": "index.js",
+  "scripts": {
+    "start": "node demo/index.js",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graymanto/video-streamer.git"
+  },
+  "keywords": [
+    "video",
+    "stream",
+    "streaming",
+    "html5"
+  ],
+  "author": "Graham Thomas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/graymanto/video-streamer/issues"
+  },
+  "homepage": "https://github.com/graymanto/video-streamer#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "fs-extra": "^0.26.5",
+    "fs-promise": "^0.5.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "supertest": "^1.2.0"
+  }
+}
