@@ -27,7 +27,7 @@ app.listen(3000);
 
 ## Testing
 
-To run the build in http tests:
+To run the built in http tests:
 
 ```sh
 npm test
